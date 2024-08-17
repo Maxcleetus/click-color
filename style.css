@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    background: black;
+    height: 100vh;
+    width: auto;
+    transition: 3s;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    grid-gap: 0px;
+}
+.grid div{
+    margin: 30px;
+    background: rgb(5, 72, 88);
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+.grid div:hover{
+    transform: translateY(-10px);
+}
+.red{
+    color: red;
+}
+.green{
+    color: green;
+}
+.grey{
+    color: grey;
+}
+.yellow{
+    color: yellow;
+}
+.blue{
+    color: blue;
+}
+.purple{
+    color: purple;
+}
+.button{
+    color: white;
+    text-align: center; 
+    transition: 1s;   
+}
+.button h1{
+    display: inline-block;
+    background: rgb(5, 72, 88);
+    padding: 20px;
+    border-radius: 10px;
+}
+.container{
+    position: absolute;
+    top: 50%;
+    left: 40%;
+}
+
+

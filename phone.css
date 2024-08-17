@@ -1,0 +1,8 @@
+.container{
+    top: 90%;
+    transform: translateX(-14%);
+}
+.button h1{
+    font-size: 18px;
+    padding: 7px;
+}
